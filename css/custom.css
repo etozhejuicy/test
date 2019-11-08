@@ -1,0 +1,379 @@
+body {
+background: #ffffff; 
+}
+
+/* colors class */
+.bg-gold {
+background: #F4CE77 !important;
+}
+
+.c-gold {
+color: #F4CE77;
+}
+
+/* Header menu */
+.header-navs li a {
+font-family: Roboto;
+font-style: normal;
+font-weight: 300;
+font-size: 10.125px;
+line-height: 16px;
+/* or 158% */
+color: #4C4C4C;
+padding: .5rem 0.5rem;
+}
+
+.header-navs li a:hover {
+border-top: 1px solid #F4CE77;
+margin-top: -1px;
+}
+
+/* Secondary menu */
+.header-pills a {
+font-family: Roboto;
+font-style: normal;
+font-weight: 300;
+font-size: 10.125px;
+line-height: 24px;
+/* or 158% */
+color: #4C4C4C;
+text-align: center;
+text-transform: uppercase;
+margin-top: .5rem;
+}
+
+.header-pills a:hover {
+}
+
+.header-pills a.nav-red {
+color: #FFFFFF;
+font-family: Roboto;
+font-style: normal;
+background-color: #E20613;
+font-weight: 300;
+font-size: 10.125px;
+text-align: center;
+text-transform: uppercase;
+position: relative;
+margin-right: 15px;
+}
+
+.header-pills a.nav-red:focus {
+box-shadow: 0px 0px 7px 5px rgba(202,3,15,0.1) !important;
+-webkit-box-shadow: 0px 0px 7px 5px rgba(202,3,15,0.1) !important;
+-moz-box-shadow: 0px 0px 7px 5px rgba(202,3,15,0.1) !important;
+padding: -5px;
+}
+
+.header-pills a.nav-red::after {
+border: 0;
+content: '';
+height: 49px;
+width: 49px;
+position: absolute;
+background: url(http://yonws.ru/logo3.png);
+background-size: contain;
+background-repeat: no-repeat;
+background-position: top center;
+right: -27px;
+top: -5px;
+z-index: 9;
+}
+
+.nav-border-top {
+position: relative;
+}
+
+.nav-border-top::after {
+border-top: 1px solid #EFEFEF;
+border-radius: 1px;
+width: 50%;
+content: '';
+position: absolute;
+left: 25%;
+top: 5px;
+}
+
+.btn-red {
+color: #fff;
+background: #E20613;
+border-color: #E20613;
+}
+
+.btn-out-red {
+border-radius: 2px;
+border-top: 1px solid rgba(202,3,15,0.5);
+border-bottom: 1px solid rgba(202,3,15,0.5);
+border-left: 1px solid rgba(202,3,15,0.5);
+background: transparent;
+font-family: Roboto;
+font-style: normal;
+font-weight: 300;
+font-size: 12.0548px;
+line-height: 19px;
+/* or 158% */
+text-align: center;
+text-transform: uppercase;
+color: #CA030F;
+padding: 7px 10px;
+}
+
+.btn-out-red::after {
+border: 0;
+content: '';
+background: url(http://yonws.ru/logo3.png);
+height: 36px;
+width: 36px;
+position: absolute;
+right: -17px;
+background-size: contain;
+top: -3px;
+z-index: 9;
+}
+
+.btn-out-red:hover {
+color: #CA030F;
+}
+
+.btn-out-red:focus {
+box-shadow: 0px 0px 7px 5px rgba(202,3,15,0.1) !important;
+-webkit-box-shadow: 0px 0px 7px 5px rgba(202,3,15,0.1) !important;
+-moz-box-shadow: 0px 0px 7px 5px rgba(202,3,15,0.1) !important;
+padding: -5px;
+}
+
+.hrt {
+position: relative;
+border-top-right-radius: 10px;
+border-bottom-right-radius: 4px;
+border-right-color: #fff;
+}
+
+.hrt2 {
+background-image: url(http://yonws.ru/logo3.png);
+background-repeat: no-repeat;
+background-position: top center;
+background-size: contain;
+margin-top: -20px;
+padding: 0;
+width: 48px;
+height: 48px;
+}
+
+/* Заголовки */
+.h2-desc {
+font-family: Roboto;
+font-style: normal;
+font-weight: 200;
+font-size: 29.8909px;
+line-height: 60px;
+/* or 433% */
+text-transform: uppercase;
+color: #000000;
+position: relative;
+max-width: 50%;
+margin-bottom: 50px;
+padding-bottom: 30px;
+padding-top: 50px;
+}
+
+.h3-desc {
+font-family: Cormorant Garamond;
+font-style: normal;
+font-weight: normal;
+font-size: 24.9412px;
+line-height: 52px;
+/* or 433% */
+color: #2B2B2B;
+}
+
+/* card all */
+.c-b-d {
+border: 1px solid #979797;
+box-sizing: border-box;
+border-radius: 2px;
+}
+
+/* card text */
+.txt-desc {
+font-family: Roboto;
+font-style: normal;
+font-weight: 300;
+font-size: 12px;
+line-height: 19px;
+/* or 158% */
+color: #4C4C4C;
+}
+
+/* vs */
+.txt-desc-gold {
+font-family: Roboto;
+font-style: normal;
+font-weight: 300;
+font-size: 14.3571px;
+line-height: 23px;
+/* or 158% */
+color: #F4CE77;
+}
+
+.txt-desc-red {
+font-family: Roboto;
+font-style: normal;
+font-weight: 300;
+font-size: 14.3571px;
+line-height: 23px;
+/* or 158% */
+color: #E20613;
+}
+
+/* card links */
+.lnk-desc {
+font-family: Roboto;
+font-style: normal;
+font-weight: 300;
+font-size: 10.125px;
+line-height: 16px;
+/* or 158% */
+text-align: right;
+color: #4C4C4C;
+position: relative;
+}
+
+/* card title */
+.h3-c-b-d {
+font-family: Cormorant Garamond;
+font-style: normal;
+font-weight: normal;
+font-size: 24.9412px;
+line-height: 52px;
+/* or 433% */
+color: #2B2B2B;
+}
+
+/* lines */
+.gold-line-tr::after, .gold-line-tl::after, .gold-line-bottom::after, .gold-line-bottom-tr::after {	
+content: '';
+border-top: 1px solid #F4CE77;
+border-radius: 1px;
+width: 60px;
+position: absolute;
+}
+
+.gold-line-tr::after {
+top: 0;
+right: 0;
+}
+
+.gold-line-tl::after {
+top: 0;
+left: 15px;
+}
+
+.gold-line-bottom::after {
+bottom: 0;
+left: 0;
+}
+
+.gold-line-bottom-tr::after {
+bottom: 0;
+right: 0;
+}
+
+.gold-border {
+border-color: #F4CE77 !important;
+border-radius: 1px;	 
+}
+
+/* Progress */
+.progress {
+background-colo: #fff;
+padding: 2px;
+border: 1px solid #DADADA;
+border-radius: 2px;
+}
+
+.progress-bar {
+padding: 2px;
+}
+
+/* footer & niz */
+footer {
+background-color: #F6F6F6;
+padding: 2% 7%;
+margin-top: 3rem;
+}
+
+.foot::after {
+content: '';
+border-top: 1px solid #F4CE77;
+border-radius: 1px;
+width: 60px;
+position: absolute;
+margin-left: 15px;
+}
+
+.f-links a.nav-link {
+font-family: Roboto;
+font-style: normal;
+font-weight: 300;
+font-size: 10.125px;
+line-height: 16px;
+/* or 158% */
+color: #4C4C4C;
+}
+
+.foot-cont {
+display: block;
+}
+
+a span.number {
+font-family: Roboto;
+font-style: normal;
+font-weight: 300;
+font-size: 24.8276px;
+line-height: 39px;
+/* or 158% */
+text-align: right;
+color: #4C4C4C;
+text-decoration: none;
+}
+
+a span.adress {
+font-family: Roboto;
+font-style: normal;
+font-weight: 300;
+font-size: 10.125px;
+line-height: 16px;
+/* or 158% */
+text-align: right;
+color: #4C4C4C;
+text-decoration: none;
+}
+
+.foo-links {
+margin-top: 10px;
+font-family: Roboto;
+font-style: normal;
+font-weight: 300;
+font-size: 10.125px;
+line-height: 16px;
+/* or 59% */
+color: #4C4C4C;
+display: block;
+}
+
+.right {
+float: right;
+text-align: right;
+right: 0;
+}
+
+.left {
+float: left;
+text-align: left;
+left: 0;
+}
+
+footer.nav-link {
+padding: 1rem 0rem !important;
+}

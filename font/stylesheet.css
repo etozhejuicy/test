@@ -1,0 +1,264 @@
+@font-face {
+    font-family: 'Roboto';
+    src: url('Roboto-BlackItalic.eot');
+    src: local('Roboto Black Italic'), local('Roboto-BlackItalic'),
+        url('Roboto-BlackItalic.eot?#iefix') format('embedded-opentype'),
+        url('Roboto-BlackItalic.woff2') format('woff2'),
+        url('Roboto-BlackItalic.woff') format('woff'),
+        url('Roboto-BlackItalic.ttf') format('truetype');
+    font-weight: 900;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: url('Roboto-Bold.eot');
+    src: local('Roboto Bold'), local('Roboto-Bold'),
+        url('Roboto-Bold.eot?#iefix') format('embedded-opentype'),
+        url('Roboto-Bold.woff2') format('woff2'),
+        url('Roboto-Bold.woff') format('woff'),
+        url('Roboto-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: url('Roboto-BoldItalic.eot');
+    src: local('Roboto Bold Italic'), local('Roboto-BoldItalic'),
+        url('Roboto-BoldItalic.eot?#iefix') format('embedded-opentype'),
+        url('Roboto-BoldItalic.woff2') format('woff2'),
+        url('Roboto-BoldItalic.woff') format('woff'),
+        url('Roboto-BoldItalic.ttf') format('truetype');
+    font-weight: bold;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: url('Roboto-LightItalic.eot');
+    src: local('Roboto Light Italic'), local('Roboto-LightItalic'),
+        url('Roboto-LightItalic.eot?#iefix') format('embedded-opentype'),
+        url('Roboto-LightItalic.woff2') format('woff2'),
+        url('Roboto-LightItalic.woff') format('woff'),
+        url('Roboto-LightItalic.ttf') format('truetype');
+    font-weight: 300;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: url('Roboto-Regular.eot');
+    src: local('Roboto'), local('Roboto-Regular'),
+        url('Roboto-Regular.eot?#iefix') format('embedded-opentype'),
+        url('Roboto-Regular.woff2') format('woff2'),
+        url('Roboto-Regular.woff') format('woff'),
+        url('Roboto-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: url('Roboto-ThinItalic.eot');
+    src: local('Roboto Thin Italic'), local('Roboto-ThinItalic'),
+        url('Roboto-ThinItalic.eot?#iefix') format('embedded-opentype'),
+        url('Roboto-ThinItalic.woff2') format('woff2'),
+        url('Roboto-ThinItalic.woff') format('woff'),
+        url('Roboto-ThinItalic.ttf') format('truetype');
+    font-weight: 100;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: url('Roboto-Black.eot');
+    src: local('Roboto Black'), local('Roboto-Black'),
+        url('Roboto-Black.eot?#iefix') format('embedded-opentype'),
+        url('Roboto-Black.woff2') format('woff2'),
+        url('Roboto-Black.woff') format('woff'),
+        url('Roboto-Black.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: url('Roboto-MediumItalic.eot');
+    src: local('Roboto Medium Italic'), local('Roboto-MediumItalic'),
+        url('Roboto-MediumItalic.eot?#iefix') format('embedded-opentype'),
+        url('Roboto-MediumItalic.woff2') format('woff2'),
+        url('Roboto-MediumItalic.woff') format('woff'),
+        url('Roboto-MediumItalic.ttf') format('truetype');
+    font-weight: 500;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: url('Roboto-Thin.eot');
+    src: local('Roboto Thin'), local('Roboto-Thin'),
+        url('Roboto-Thin.eot?#iefix') format('embedded-opentype'),
+        url('Roboto-Thin.woff2') format('woff2'),
+        url('Roboto-Thin.woff') format('woff'),
+        url('Roboto-Thin.ttf') format('truetype');
+    font-weight: 100;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: url('Roboto-Light.eot');
+    src: local('Roboto Light'), local('Roboto-Light'),
+        url('Roboto-Light.eot?#iefix') format('embedded-opentype'),
+        url('Roboto-Light.woff2') format('woff2'),
+        url('Roboto-Light.woff') format('woff'),
+        url('Roboto-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: url('Roboto-Italic.eot');
+    src: local('Roboto Italic'), local('Roboto-Italic'),
+        url('Roboto-Italic.eot?#iefix') format('embedded-opentype'),
+        url('Roboto-Italic.woff2') format('woff2'),
+        url('Roboto-Italic.woff') format('woff'),
+        url('Roboto-Italic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: url('Roboto-Medium.eot');
+    src: local('Roboto Medium'), local('Roboto-Medium'),
+        url('Roboto-Medium.eot?#iefix') format('embedded-opentype'),
+        url('Roboto-Medium.woff2') format('woff2'),
+        url('Roboto-Medium.woff') format('woff'),
+        url('Roboto-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Cormorant Garamond';
+    src: url('CormorantGaramond-MediumItalic.eot');
+    src: local('Cormorant Garamond Medium Italic'), local('CormorantGaramond-MediumItalic'),
+        url('CormorantGaramond-MediumItalic.eot?#iefix') format('embedded-opentype'),
+        url('CormorantGaramond-MediumItalic.woff2') format('woff2'),
+        url('CormorantGaramond-MediumItalic.woff') format('woff'),
+        url('CormorantGaramond-MediumItalic.ttf') format('truetype');
+    font-weight: 500;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Cormorant Garamond';
+    src: url('CormorantGaramond-Medium.eot');
+    src: local('Cormorant Garamond Medium'), local('CormorantGaramond-Medium'),
+        url('CormorantGaramond-Medium.eot?#iefix') format('embedded-opentype'),
+        url('CormorantGaramond-Medium.woff2') format('woff2'),
+        url('CormorantGaramond-Medium.woff') format('woff'),
+        url('CormorantGaramond-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Cormorant Garamond';
+    src: url('CormorantGaramond-LightItalic.eot');
+    src: local('Cormorant Garamond Light Italic'), local('CormorantGaramond-LightItalic'),
+        url('CormorantGaramond-LightItalic.eot?#iefix') format('embedded-opentype'),
+        url('CormorantGaramond-LightItalic.woff2') format('woff2'),
+        url('CormorantGaramond-LightItalic.woff') format('woff'),
+        url('CormorantGaramond-LightItalic.ttf') format('truetype');
+    font-weight: 300;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Cormorant Garamond';
+    src: url('CormorantGaramond-Light.eot');
+    src: local('Cormorant Garamond Light'), local('CormorantGaramond-Light'),
+        url('CormorantGaramond-Light.eot?#iefix') format('embedded-opentype'),
+        url('CormorantGaramond-Light.woff2') format('woff2'),
+        url('CormorantGaramond-Light.woff') format('woff'),
+        url('CormorantGaramond-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Cormorant Garamond';
+    src: url('CormorantGaramond-SemiBoldItalic.eot');
+    src: local('Cormorant Garamond SemiBold Italic'), local('CormorantGaramond-SemiBoldItalic'),
+        url('CormorantGaramond-SemiBoldItalic.eot?#iefix') format('embedded-opentype'),
+        url('CormorantGaramond-SemiBoldItalic.woff2') format('woff2'),
+        url('CormorantGaramond-SemiBoldItalic.woff') format('woff'),
+        url('CormorantGaramond-SemiBoldItalic.ttf') format('truetype');
+    font-weight: 600;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Cormorant Garamond';
+    src: url('CormorantGaramond-Bold.eot');
+    src: local('Cormorant Garamond Bold'), local('CormorantGaramond-Bold'),
+        url('CormorantGaramond-Bold.eot?#iefix') format('embedded-opentype'),
+        url('CormorantGaramond-Bold.woff2') format('woff2'),
+        url('CormorantGaramond-Bold.woff') format('woff'),
+        url('CormorantGaramond-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Cormorant Garamond';
+    src: url('CormorantGaramond-BoldItalic.eot');
+    src: local('Cormorant Garamond Bold Italic'), local('CormorantGaramond-BoldItalic'),
+        url('CormorantGaramond-BoldItalic.eot?#iefix') format('embedded-opentype'),
+        url('CormorantGaramond-BoldItalic.woff2') format('woff2'),
+        url('CormorantGaramond-BoldItalic.woff') format('woff'),
+        url('CormorantGaramond-BoldItalic.ttf') format('truetype');
+    font-weight: bold;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Cormorant Garamond';
+    src: url('CormorantGaramond-SemiBold.eot');
+    src: local('Cormorant Garamond SemiBold'), local('CormorantGaramond-SemiBold'),
+        url('CormorantGaramond-SemiBold.eot?#iefix') format('embedded-opentype'),
+        url('CormorantGaramond-SemiBold.woff2') format('woff2'),
+        url('CormorantGaramond-SemiBold.woff') format('woff'),
+        url('CormorantGaramond-SemiBold.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Cormorant Garamond';
+    src: url('CormorantGaramond-Italic.eot');
+    src: local('Cormorant Garamond Italic'), local('CormorantGaramond-Italic'),
+        url('CormorantGaramond-Italic.eot?#iefix') format('embedded-opentype'),
+        url('CormorantGaramond-Italic.woff2') format('woff2'),
+        url('CormorantGaramond-Italic.woff') format('woff'),
+        url('CormorantGaramond-Italic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Cormorant Garamond';
+    src: url('CormorantGaramond-Regular.eot');
+    src: local('Cormorant Garamond Regular'), local('CormorantGaramond-Regular'),
+        url('CormorantGaramond-Regular.eot?#iefix') format('embedded-opentype'),
+        url('CormorantGaramond-Regular.woff2') format('woff2'),
+        url('CormorantGaramond-Regular.woff') format('woff'),
+        url('CormorantGaramond-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
